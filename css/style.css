@@ -1,0 +1,80 @@
+body {
+    background-color: #00FAFE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+.main, .mainReg {
+    background-color: #FFFFFF;
+    width: 400px;
+    height: 400px;
+    border-radius: 1.5em;
+}
+.mainReg{
+    height: 600px;
+}
+
+p {
+    padding-top: 40px;
+    color: #8C55AA;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.user {
+    width: 75%;
+    font-size: 14px;
+    font-weight: bold;
+    background: rgba(136, 126, 126, 0.04);
+    padding: 10px 20px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    border: 2px solid rgba(0, 0, 0, 0.02);
+    margin-left: 45px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+form {
+    padding-top: 40px;
+}
+
+.log, .reg {
+    cursor: pointer;
+    border-radius: 5em;
+    color: #fff;
+    background: #e538c6;
+    border: 0;
+    padding: 10px 40px;
+    font-size: 15px;
+    text-decoration: none;
+}
+.reg{
+    margin-left: 30%;
+}
+.contain{
+    display: flex;
+    justify-content: space-around;
+}
+
+#loginLink{
+    position: absolute;
+    top: 73%;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+small{
+    color: red;
+    display: block;
+    position: relative;
+    left: 7rem;
+}
+.poruka{
+    position: absolute;
+    right: 44vw;
+    top: 55vh;
+
+}
